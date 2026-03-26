@@ -37,6 +37,7 @@
  *    2. Finds that deadlock using ThreadMXBean
  *    3. Unlocks one thread to let others go
  *
+ * @requires vm.compMode != "Xcomp"
  * @library /vmTestbase
  *          /test/lib
  *
